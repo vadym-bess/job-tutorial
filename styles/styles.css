@@ -55,6 +55,13 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 }
 
+.main-thumb:hover,
+.main-thumb:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+            0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);   
+}
+
 .heading{
 font-family: 'Proxima Nova';
 font-style: normal;
@@ -162,7 +169,7 @@ color: #878D9D;
 .footer-conteiner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .footer-thumb{
@@ -170,15 +177,45 @@ color: #878D9D;
     align-items: center;
     position: relative;
     justify-content: center;
-    gap: 36px;
+    gap: 30px;
     width: 396px;
     height: auto;
-    background-color: #EFF0F5;
+    background-color: #fff;
     border-radius: 8px;
     padding: 15px;
     margin-top: 26px;
     margin-bottom: 8px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer-thumb:hover,
+.footer-thumb:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+            0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);   
+}
+
+.footer-thumb::after{
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 1px;
+    bottom: 10px;
+    left: 35px;
+    border: 1px solid rgba(56, 65, 93, 0.0513276);
+    
+}
+
+
+.footer-thumb::before{
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 1px;
+    bottom: 10px;
+    left: 360px;
+    border: 1px solid rgba(56, 65, 93, 0.0513276);
+    /* background-color: rgb(233, 17, 17); */
 }
 
 .footer-thumb__link{
@@ -192,7 +229,23 @@ color: #878D9D;
     color: rgba(56, 65, 93, 0.602109);
 }
 
+.dots{
+    position: relative;
+    height: 10px;
+    width: 14px;
+}
 
+.footer-thumb__link--dots{
+    position: absolute;
+    top: 20px;
+    left: -2px;
+    height: 10px;
+    width: 24px;
+}
+
+.current{
+    color: #55699E;
+}
 
 .current::after{
     position: absolute;
@@ -200,7 +253,7 @@ color: #878D9D;
     height: 0.5px;
     width: 24px;
     border: 2px solid;
-    left: 87px;
+    left: 100px;
     bottom: 0;
     color: #55699E;
     background-color: #55699E;
