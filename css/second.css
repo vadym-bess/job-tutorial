@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #E6E9F2;
+  padding: 16px;
+  margin: 0;
+}
+
+.main-heading {
+  position: relative;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.413333px;
+  color: #3A4562;
+}
+
+.share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  margin-top: 37px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: rgba(56, 65, 93, 0.82);
+}
+
+.share-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.primary-text {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: 0.413333px;
+  color: #3A4562;
+  margin-top: 32px;
+}
+
+.post-job-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.9;
+  letter-spacing: 0.191905px;
+  color: rgba(56, 65, 93, 0.602109);
+}
+
+.salary-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.aditional-info {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.5625px;
+  color: rgba(56, 65, 93, 0.82);
+  margin-top: 5px;
+}
+
+.salary {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.625px;
+  color: #3A4562;
+  margin-bottom: 14px;
+}
+
+.post-and-salary-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondary-text {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.5625px;
+  color: rgba(56, 65, 93, 0.82);
+  margin-bottom: 25px;
+}
+
+.secondary-heading {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.625px;
+  color: #3A4562;
+  margin-top: 43px;
+}
+
+.list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #384564;
+  border-radius: 8px;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.button-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=second.css.map */
