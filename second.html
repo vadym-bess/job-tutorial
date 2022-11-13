@@ -18,10 +18,25 @@
       </header>
 
       <main>
-        <div class="share">
-          <p class="share-elements">Save to my list</p>
-          <p class="share-elements">Share</p>
+        <div class="share-thumb">
+
+          <div class="share-elements__save">
+            <div class="share-elements__save--svg">
+            <svg class="save__icon">
+              <use href="./img/symbol-defs.svg#icon-star-full"></use>
+            </svg>
+          </div>Save to my list
         </div>
+
+          <div class="share-elements__share">
+            <div class="share-elements__share--svg">
+            <svg class="share__icon">
+              <use href="./img/symbol-defs.svg#icon-share2"></use>
+            </svg>
+          </div>Share
+        </div>
+
+      </div>
         
         <h2 class="primary-text">Arbeitsmediziner/-in / Betriebsmediziner/-in (m/w/d) oder einen Arzt/eine Ärztin (m/w/d) 
           für die Weiterbildung zum Facharzt/ zur Fachärztin für Arbeitsmedizin (m/w/d)
@@ -75,7 +90,7 @@
          
        <h3 class="secondary-heading">Compensation & Benefits:</h3>
 
-       <p class="secondary-text"> Our physicians enjoy a wide range of benefits, including:</p>
+       <p class="secondary-text physicians"> Our physicians enjoy a wide range of benefits, including:</p>
 
         <ul class="secondary-text list">
           <li>
@@ -100,45 +115,65 @@
         </div>
         
 
-        <h2 class="primary-text">Attached images</h2>
+        <h2 class="primary-text attached">Attached images</h2>
 
-        <ul>
-          <li>foto</li>
-          <li>foto</li>
-        </ul>
+        <div class="photos-thumb">
+          <img class="photos-thumb__item" src="./img/Bitmap.jpeg" alt="foto" loading="lazy">
+          <img class="photos-thumb__item" src="./img/Bitmap2.jpeg" alt="foto" loading="lazy">
+        </div>
 
-        <h2 class="primary-text">Additional info</h2>
+        <h2 class="primary-text additional">Additional info</h2>
 
-        <p>Employment type</p>
+        <p class="small-heding">Employment type</p>
 
-        <ul>
+        <ul class="job-button">
           <li>
-            <button type="button">Full-time</button>
+            <button class="job-button__item" type="button"><span class="job-button__item--text">Full-time</span></button>
           </li>
           <li>
-            <button type="button">Part-time</button>
+            <button class="job-button__item" type="button"><span class="job-button__item--text">Part-time</span></button>
           </li>
           <li>
-            <button type="button">Temporary</button>
+            <button class="job-button__item" type="button"><span class="job-button__item--text">Temporary</span></button>
           </li>
+       </ul>
 
-          <p>Benefits</p>
+          <p class="small-heding benefits">Benefits</p>
 
-          <ul>
+          <ul class="job-button">
             <li>
-              <button type="button">Flexible shedule</button>
+              <button class="job-button__second-row" type="button"><span class="job-button__second-row--text">Flexible shedule</span></button>
             </li>
 
             <li>
-              <button type="button">Relocation assistance</button>
+              <button class="job-button__second-row" type="button"><span class="job-button__second-row--text">Relocation assistance</span></button>
             </li>
           </ul>
           
-          <h2 class="primary-text">Contacts</h2>
+          <h2 class="primary-text contacts">Contacts</h2>
       </main>
 
-      <footer>
-          <div></div>
+      <footer class="footer">
+          <div class="footer-thumb">
+            <div class='footer-thumb__upper'>
+              <div class="footer-thumb__upper--heding">Department.<br>
+                University Hospital Giessen.</div>
+                
+              <div class="footer-thumb__upper--address"><div class="footer-thumb__upper--location">
+                <svg class="logo-location__icon">
+                  <use href="./img/symbol-defs.svg#icon-Small-icon-Location"></use>
+                </svg>
+              </div>AKH Wien, 1090 Wien, Währinger</div>
+              <div class="footer-thumb__upper--sreet">Gürtel 18-20</div>
+              <div class="footer-thumb__upper--contacts">+43 (01) 40400-12090,<br>post_akh_diz@akhwien.at</div>
+            </div>
+            <div class="footer-thumb__inner">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21660.067395702084!2d16.366698440460308!3d48.21877358099861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sua!4v1668356519061!5m2!1sen!2sua"
+              width="372" height="218" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
       </footer>
 
   </body>
