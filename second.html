@@ -118,8 +118,18 @@
         <h2 class="primary-text attached">Attached images</h2>
 
         <div class="photos-thumb">
-          <img class="photos-thumb__item" src="./img/Bitmap.jpeg" alt="foto" loading="lazy">
-          <img class="photos-thumb__item" src="./img/Bitmap2.jpeg" alt="foto" loading="lazy">
+
+          <img class="photos-thumb__item"
+          srcset="./img/Bitmap.jpeg 1x, ./img/Bitmap@2x.jpeg 2x" 
+          src="./img/Bitmap.jpeg" 
+          alt="our team" 
+          loading="lazy">
+
+          <img class="photos-thumb__item" 
+          srcset="./img/Bitmap2.jpeg 1x, ./img/Bitmap2@2x.jpeg 2x"
+          src="./img/Bitmap2.jpeg" 
+          alt="our benefits" 
+          loading="lazy">
         </div>
 
         <h2 class="primary-text additional">Additional info</h2>
