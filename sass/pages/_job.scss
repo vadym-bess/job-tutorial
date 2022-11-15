@@ -42,6 +42,7 @@ body{
     line-height: 34px;
     letter-spacing: 0.413333px;
     color: #3A4562;
+
 }
 
 .share-thumb {
@@ -59,6 +60,12 @@ body{
     letter-spacing: -0.5px;
     color: rgba(56, 65, 93, 0.82);
     gap: 36px;
+
+}
+
+.share-thumb2{
+    display: none;
+
 }
 
 .save__icon{
@@ -82,6 +89,11 @@ body{
     background: #3A4562;
     opacity: 0.13;
     left: 0;
+
+    @media (min-width:415px) {
+        width: 100%;
+
+}
 }
 
 .share-elements__save {
@@ -261,6 +273,10 @@ body{
     opacity: 0.13;
     left: 0;
     bottom: 150px;
+
+    @media (min-width:415px) {
+            width: 100%;
+        }
 }
 
 .photos-thumb__item{
@@ -303,6 +319,10 @@ body{
     opacity: 0.13;
     left: 0;
     bottom: 145px;
+
+    @media (min-width:415px) {
+            width: 100%;
+        }
 }
 
 .job-button__item{
@@ -368,10 +388,6 @@ body{
     cursor: pointer;
 }
 
-.contacts{
-    margin-top: 63px;
-}
-
 .footer-thumb{
     position: relative;
     display: flex;
@@ -388,16 +404,30 @@ body{
 
 }
 
-.footer-thumb::before {
+.contacts {
+    margin-top: 63px;
+}
+
+.for-footer-line::after {
     position: absolute;
     content: '';
     width: 500px;
     height: 1px;
-    bottom: 455px;
+    bottom: -10px;
     background: #3A4562;
     opacity: 0.13;
-    left: -100px;
+    left: 0px;
+
+    @media (min-width:415px) {
+            width: 100%;
+        }
 }
+
+.for-footer-line{
+    display: flex;
+    position: relative;
+}
+
 
 .footer{
     display: flex;

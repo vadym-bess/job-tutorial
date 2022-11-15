@@ -34,6 +34,7 @@ body{
     background: #E6E9F2;
     padding: 9px;
     margin: 0;
+    overflow: scroll;
     
 }
 
@@ -49,7 +50,7 @@ body{
 position: relative;
 background: #EFF0F5;
 border-radius: 8px;
-width: 396px;
+min-width: 396px;
 height: 100%;
 padding-left: 16px;
 padding-right: 16px;
